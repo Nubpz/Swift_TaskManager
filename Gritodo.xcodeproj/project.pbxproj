@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DD29A752C425B7600BF4396 /* GritodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD29A742C425B7600BF4396 /* GritodoApp.swift */; };
+		9DD29A772C425B7600BF4396 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD29A762C425B7600BF4396 /* ContentView.swift */; };
+		9DD29A792C425B7A00BF4396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD29A782C425B7A00BF4396 /* Assets.xcassets */; };
+		9DD29A7C2C425B7A00BF4396 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD29A7B2C425B7A00BF4396 /* Preview Assets.xcassets */; };
+		9DD29A862C425B7A00BF4396 /* GritodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD29A852C425B7A00BF4396 /* GritodoTests.swift */; };
+		9DD29A902C425B7B00BF4396 /* GritodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD29A8F2C425B7B00BF4396 /* GritodoUITests.swift */; };
+		9DD29A922C425B7B00BF4396 /* GritodoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD29A912C425B7B00BF4396 /* GritodoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DD29A822C425B7A00BF4396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DD29A692C425B7500BF4396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DD29A702C425B7600BF4396;
+			remoteInfo = Gritodo;
+		};
+		9DD29A8C2C425B7A00BF4396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DD29A692C425B7500BF4396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DD29A702C425B7600BF4396;
+			remoteInfo = Gritodo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DD29A712C425B7600BF4396 /* Gritodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gritodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD29A742C425B7600BF4396 /* GritodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GritodoApp.swift; sourceTree = "<group>"; };
+		9DD29A762C425B7600BF4396 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9DD29A782C425B7A00BF4396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DD29A7B2C425B7A00BF4396 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DD29A812C425B7A00BF4396 /* GritodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GritodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD29A852C425B7A00BF4396 /* GritodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GritodoTests.swift; sourceTree = "<group>"; };
+		9DD29A8B2C425B7A00BF4396 /* GritodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GritodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD29A8F2C425B7B00BF4396 /* GritodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GritodoUITests.swift; sourceTree = "<group>"; };
+		9DD29A912C425B7B00BF4396 /* GritodoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GritodoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DD29A6E2C425B7600BF4396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DD29A7E2C425B7A00BF4396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DD29A882C425B7A00BF4396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DD29A682C425B7500BF4396 = {
+			isa = PBXGroup;
+			children = (
+				9DD29A732C425B7600BF4396 /* Gritodo */,
+				9DD29A842C425B7A00BF4396 /* GritodoTests */,
+				9DD29A8E2C425B7B00BF4396 /* GritodoUITests */,
+				9DD29A722C425B7600BF4396 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DD29A722C425B7600BF4396 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DD29A712C425B7600BF4396 /* Gritodo.app */,
+				9DD29A812C425B7A00BF4396 /* GritodoTests.xctest */,
+				9DD29A8B2C425B7A00BF4396 /* GritodoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DD29A732C425B7600BF4396 /* Gritodo */ = {
+			isa = PBXGroup;
+			children = (
+				9DD29A742C425B7600BF4396 /* GritodoApp.swift */,
+				9DD29A762C425B7600BF4396 /* ContentView.swift */,
+				9DD29A782C425B7A00BF4396 /* Assets.xcassets */,
+				9DD29A7A2C425B7A00BF4396 /* Preview Content */,
+			);
+			path = Gritodo;
+			sourceTree = "<group>";
+		};
+		9DD29A7A2C425B7A00BF4396 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9DD29A7B2C425B7A00BF4396 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DD29A842C425B7A00BF4396 /* GritodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DD29A852C425B7A00BF4396 /* GritodoTests.swift */,
+			);
+			path = GritodoTests;
+			sourceTree = "<group>";
+		};
+		9DD29A8E2C425B7B00BF4396 /* GritodoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DD29A8F2C425B7B00BF4396 /* GritodoUITests.swift */,
+				9DD29A912C425B7B00BF4396 /* GritodoUITestsLaunchTests.swift */,
+			);
+			path = GritodoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DD29A702C425B7600BF4396 /* Gritodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DD29A952C425B7B00BF4396 /* Build configuration list for PBXNativeTarget "Gritodo" */;
+			buildPhases = (
+				9DD29A6D2C425B7600BF4396 /* Sources */,
+				9DD29A6E2C425B7600BF4396 /* Frameworks */,
+				9DD29A6F2C425B7600BF4396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gritodo;
+			productName = Gritodo;
+			productReference = 9DD29A712C425B7600BF4396 /* Gritodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DD29A802C425B7A00BF4396 /* GritodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DD29A982C425B7B00BF4396 /* Build configuration list for PBXNativeTarget "GritodoTests" */;
+			buildPhases = (
+				9DD29A7D2C425B7A00BF4396 /* Sources */,
+				9DD29A7E2C425B7A00BF4396 /* Frameworks */,
+				9DD29A7F2C425B7A00BF4396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DD29A832C425B7A00BF4396 /* PBXTargetDependency */,
+			);
+			name = GritodoTests;
+			productName = GritodoTests;
+			productReference = 9DD29A812C425B7A00BF4396 /* GritodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DD29A8A2C425B7A00BF4396 /* GritodoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DD29A9B2C425B7B00BF4396 /* Build configuration list for PBXNativeTarget "GritodoUITests" */;
+			buildPhases = (
+				9DD29A872C425B7A00BF4396 /* Sources */,
+				9DD29A882C425B7A00BF4396 /* Frameworks */,
+				9DD29A892C425B7A00BF4396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DD29A8D2C425B7A00BF4396 /* PBXTargetDependency */,
+			);
+			name = GritodoUITests;
+			productName = GritodoUITests;
+			productReference = 9DD29A8B2C425B7A00BF4396 /* GritodoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DD29A692C425B7500BF4396 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					9DD29A702C425B7600BF4396 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					9DD29A802C425B7A00BF4396 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9DD29A702C425B7600BF4396;
+					};
+					9DD29A8A2C425B7A00BF4396 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9DD29A702C425B7600BF4396;
+					};
+				};
+			};
+			buildConfigurationList = 9DD29A6C2C425B7500BF4396 /* Build configuration list for PBXProject "Gritodo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DD29A682C425B7500BF4396;
+			productRefGroup = 9DD29A722C425B7600BF4396 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DD29A702C425B7600BF4396 /* Gritodo */,
+				9DD29A802C425B7A00BF4396 /* GritodoTests */,
+				9DD29A8A2C425B7A00BF4396 /* GritodoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DD29A6F2C425B7600BF4396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD29A7C2C425B7A00BF4396 /* Preview Assets.xcassets in Resources */,
+				9DD29A792C425B7A00BF4396 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DD29A7F2C425B7A00BF4396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DD29A892C425B7A00BF4396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DD29A6D2C425B7600BF4396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD29A772C425B7600BF4396 /* ContentView.swift in Sources */,
+				9DD29A752C425B7600BF4396 /* GritodoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DD29A7D2C425B7A00BF4396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD29A862C425B7A00BF4396 /* GritodoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DD29A872C425B7A00BF4396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD29A902C425B7B00BF4396 /* GritodoUITests.swift in Sources */,
+				9DD29A922C425B7B00BF4396 /* GritodoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DD29A832C425B7A00BF4396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DD29A702C425B7600BF4396 /* Gritodo */;
+			targetProxy = 9DD29A822C425B7A00BF4396 /* PBXContainerItemProxy */;
+		};
+		9DD29A8D2C425B7A00BF4396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DD29A702C425B7600BF4396 /* Gritodo */;
+			targetProxy = 9DD29A8C2C425B7A00BF4396 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9DD29A932C425B7B00BF4396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DD29A942C425B7B00BF4396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DD29A962C425B7B00BF4396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gritodo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nunpz.Gritodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DD29A972C425B7B00BF4396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gritodo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nunpz.Gritodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9DD29A992C425B7B00BF4396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nunpz.GritodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gritodo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gritodo";
+			};
+			name = Debug;
+		};
+		9DD29A9A2C425B7B00BF4396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nunpz.GritodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gritodo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gritodo";
+			};
+			name = Release;
+		};
+		9DD29A9C2C425B7B00BF4396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nunpz.GritodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gritodo;
+			};
+			name = Debug;
+		};
+		9DD29A9D2C425B7B00BF4396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nunpz.GritodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gritodo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DD29A6C2C425B7500BF4396 /* Build configuration list for PBXProject "Gritodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD29A932C425B7B00BF4396 /* Debug */,
+				9DD29A942C425B7B00BF4396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DD29A952C425B7B00BF4396 /* Build configuration list for PBXNativeTarget "Gritodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD29A962C425B7B00BF4396 /* Debug */,
+				9DD29A972C425B7B00BF4396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DD29A982C425B7B00BF4396 /* Build configuration list for PBXNativeTarget "GritodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD29A992C425B7B00BF4396 /* Debug */,
+				9DD29A9A2C425B7B00BF4396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DD29A9B2C425B7B00BF4396 /* Build configuration list for PBXNativeTarget "GritodoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD29A9C2C425B7B00BF4396 /* Debug */,
+				9DD29A9D2C425B7B00BF4396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DD29A692C425B7500BF4396 /* Project object */;
+}
